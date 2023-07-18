@@ -12,7 +12,7 @@ GameScene::~GameScene()
 	delete player_;
 	delete enemy_;
 }
-
+ 
 void GameScene::Initialize() {
 
 	dxCommon_ = DirectXCommon::GetInstance();
